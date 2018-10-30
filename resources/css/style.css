@@ -1,3 +1,6 @@
+/*------------ Static ------------*/
+
+/*
 .box-orange {
   background: orange;
   height: 100px;
@@ -10,3 +13,101 @@
   width: 100px; 
   position: static;
 }
+*/
+
+/*------------ Relative ------------*/
+/*
+
+.box-orange {
+  position: relative;
+  background: orange;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 100px;
+}
+
+.box-blue {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;
+}
+*/
+
+/*------------ Absolute ------------*/
+
+.container {
+  position: relative;
+  background: lightgray;
+}
+
+.box-orange {
+  position: absolute;
+  background: orange;
+  width: 100px;
+  height: 100px;
+  right: 5px;
+}
+
+.box-blue {
+  background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..
