@@ -1,7 +1,7 @@
 # Web Design Basics
 
 
-## CSS Position Properties
+## 1. CSS Position Properties
 1. static: 
 Is the default value.
 Div's are block elements by default.
@@ -23,7 +23,7 @@ position: sticky can be explained as a mix of position: relative and position: f
 It behaves until a declated point like position: relative, after that is changes its behavior to position: fixed. 
 P.S. Tool bar for the website usually uses sticky, and is not supported in Internet Explorer and earlier version of Edge.
 
-## Counterpart of the float
+## 2. Counterpart of the float
 .clearfix:after {
   content: "";
   display: table;
