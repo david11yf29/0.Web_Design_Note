@@ -5,7 +5,7 @@ This is the Jonas' udemy course that I had took for the beginner, and the instru
 
 [Everything you need for web](http://codingheroes.io/resources/ )
 
-[Build Responsive Real World Websites with HTML5 and CSS3]{https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/}
+[Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
 
 
 ## 1. CSS Position Properties
