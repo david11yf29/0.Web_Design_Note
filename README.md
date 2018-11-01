@@ -1,5 +1,10 @@
 # Web Design Basics
 
+## 0. Web Design Elements
+This is the Jonas' udemy course that I had took for the beginner, and the instructor already listed all the items and resources we will use throught the process.
+
+[Everything you need for web](http://codingheroes.io/resources/ )
+
 
 ## 1. CSS Position Properties
 1. static: 
