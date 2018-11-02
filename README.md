@@ -41,4 +41,13 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
+## 3. normalize.css
+- Preserves useful defaults, unlike many CSS resets.
+- Normalizes styles for a wide range of elements.
+- Corrects bugs and common browser inconsistencies.
+- Improves usability with subtle modifications.
+- Explains what code does using detailed comments.
+
+[normalize.css](https://github.com/necolas/normalize.css)
+
 
