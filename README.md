@@ -51,11 +51,9 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 [normalize.css](https://github.com/necolas/normalize.css)
 
 ## 4. border-sizing
-
 [w3s](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
 
 ## 5. text-rendering
-
 提昇易讀性
 <br/>
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
@@ -69,7 +67,6 @@ P.S. Just download through this folder
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
 ## 7. transform
-
 The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
 <br/>
 [w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
@@ -80,6 +77,11 @@ Color examples
 [Flat UI Colors](https://flatuicolors.com/)
 <br/>
 [0to255](http://www.0to255.com/)
+
+## 9. Ionicons
+Beautifully crafted open source icons
+<br>
+[Ionicons](https://ionicons.com/)
 
 
 
