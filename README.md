@@ -63,8 +63,8 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 ## 6. grid
 
 Split columns up to 12.
-<br/>
 P.S. Just download through this folder
+<br/>
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
 ## 7. transform
