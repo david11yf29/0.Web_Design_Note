@@ -52,7 +52,7 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 ## 4. border-sizing
 
-[W3C](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
+[w3s](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
 
 ## 5. text-rendering
 
@@ -66,6 +66,12 @@ Split columns up to 12.
 <br/>
 P.S. Just download through this folder
 [Responsive Grid System](http://www.responsivegridsystem.com/)
+
+## 7. transform
+
+The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
+<br/>
+[w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
 
 
 
