@@ -50,4 +50,8 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 [normalize.css](https://github.com/necolas/normalize.css)
 
+## 4. border-sizing
+
+[W3C](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
+
 
