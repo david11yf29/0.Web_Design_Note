@@ -9,8 +9,7 @@ This is the Jonas' udemy course that I had took for the beginner, and the instru
 
 
 ## 1. CSS Position Properties
-1. static: 
-<br/>
+1. static: <br/>
 Is the default value.
 Div's are block elements by default.
 
