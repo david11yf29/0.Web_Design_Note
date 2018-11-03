@@ -83,6 +83,17 @@ Beautifully crafted open source icons
 <br>
 [Ionicons](https://ionicons.com/)
 
+## 10. CSS Pseudo-elements
+While h elements are always block elements by default, the content you add to the :after pseudo-class of your h2 element is by default an inline element.  So, to give the inserted element a height, padding, margins and so  forth, you’ll usually have to define it explicitly as a block-level element.
+Ex:
+<br>
+h1:after {
+  display: block;
+  content: " ";
+}
+<br>
+[w3s](https://www.w3schools.com/css/css_pseudo_elements.asp)
+
 
 
 
