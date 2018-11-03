@@ -17,7 +17,7 @@ Div's are block elements by default.
 An element's new position relative to its normal position.
 P.S. It doesn't affect other elements' positions.
 
-3. absolute
+3. absolute:
 Absolute positioned element is relative to its parent. Is removed from the normal document flow. It is positioned automatically to the starting point(top-left corner) of its parent element. If it doesn't have any parent elements, <html> will be its parent. Other elements are affected and behave as the element is removed completely from the webpage.
 
 4. fixed
