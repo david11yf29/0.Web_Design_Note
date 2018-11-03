@@ -64,6 +64,7 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 Split columns up to 12.
 <br/>
+P.S. Just download through this folder
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
 
