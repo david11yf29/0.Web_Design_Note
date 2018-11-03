@@ -74,6 +74,11 @@ The translate() method moves an element from its current position (according to 
 <br/>
 [w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
 
+## 8. Color Palettes
+Color examples
+<br/>
+Flat UI Colors (https://flatuicolors.com/)
+
 
 
 
