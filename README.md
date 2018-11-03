@@ -60,7 +60,10 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 <br/>
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
 
+## 6. grid
 
+Split columns up to 12.
+[Responsive Grid System](http://www.responsivegridsystem.com/)
 
 
 
