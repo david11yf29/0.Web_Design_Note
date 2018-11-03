@@ -77,7 +77,7 @@ The translate() method moves an element from its current position (according to 
 ## 8. Color Palettes
 Color examples
 <br/>
-Flat UI Colors (https://flatuicolors.com/)
+[Flat UI Colors](https://flatuicolors.com/)
 
 
 
