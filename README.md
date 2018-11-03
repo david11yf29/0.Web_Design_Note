@@ -54,4 +54,17 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 [W3C](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
 
+## 5. text-rendering
+
+提昇易讀性
+[MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
+
+
+
+
+
+
+
+
+
 
