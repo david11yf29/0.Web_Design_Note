@@ -55,25 +55,25 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 ## 5. text-rendering
 提昇易讀性
-<br/>
+<br>
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
 
 ## 6. grid
 
 Split columns up to 12.
-<br/>
+<br>
 P.S. Just download through this folder
-<br/>
+<br>
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
 ## 7. transform
 The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
-<br/>
+<br>
 [w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
 
 ## 8. Color Palettes
 Color examples
-<br/>
+<br>
 [Flat UI Colors](https://flatuicolors.com/)
 <br/>
 [0to255](http://www.0to255.com/)
@@ -94,6 +94,11 @@ h1:after {
 }
 <br>
 [w3s](https://www.w3schools.com/css/css_pseudo_elements.asp)
+
+## 11. figure and figcaption
+The HTML <figure> element represents self-contained content, frequently with a caption (<figcaption>), and is typically referenced as a single unit.
+<br>
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
 
 
 
