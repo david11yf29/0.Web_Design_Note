@@ -102,7 +102,7 @@ The HTML <figure> element represents self-contained content, frequently with a c
 <br>
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
   
-## 12. Overflow
+## 12. Overflow(Dealing the text or img when it is outside the region)
 The overflow property specifies what should happen if content overflows an element's box.
 This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
 <br>
