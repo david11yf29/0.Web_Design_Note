@@ -175,7 +175,7 @@ Usually use with site element for someone want to say something.
 [w3s](https://www.w3schools.com/tags/tag_blockquote.asp)
 
 ## 21. CSS background-attachment Property
-The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+The `<background-attachment>` property sets whether a background image scrolls with the rest of the page, or is fixed.
 <br>
 [w3s](https://www.w3schools.com/cssref/pr_background-attachment.asp)
 
@@ -184,18 +184,18 @@ The background-attachment property sets whether a background image scrolls with 
 [css-tricks](https://css-tricks.com/snippets/html/glyphs/)
 
 ## 23. HTML input Tag
-The input tag specifies an input field where the user can enter data.
+The `<input>` tag specifies an input field where the user can enter data.
 <br>
-input elements are used within a form element to declare input controls that allow users to input data.
+`<input>` elements are used within a form element to declare input controls that allow users to input data.
 <br>
 An input field can vary in many ways, depending on the type attribute.
 <br>
 [w3s](https://www.w3schools.com/tags/tag_input.asp)
 
 ## 24. HTML select Tag
-The select element is used to create a drop-down list.
+The `<select>` element is used to create a drop-down list.
 <br>
-The option tags inside the select element define the available options in the list.
+The `<option>` tags inside the select element define the available options in the list.
 <br>
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
 
