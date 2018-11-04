@@ -138,6 +138,25 @@ Inline-block vs block(Use situation)
 <br>
 [w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
 
+## 18. Clearfix
+
+.clearfix::after {
+<br>
+   content: '.';
+   <br>
+   clear: both;
+   <br>
+   display: block;
+   <br>
+   height: 0;
+   <br>
+   visibility: hidden;
+   <br>
+}
+<br>
+
+
+
 
 
 
