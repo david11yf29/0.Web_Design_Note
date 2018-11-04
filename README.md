@@ -199,8 +199,23 @@ The option tags inside the <select> element define the available options in the 
 <br>
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
 
-
-
+## 25. Media Query
+0px => 480px => 768px => 1024px => 1200px
+<br>
+@media only screen and (max-width: 1200px) {
+<br>    
+}
+@media only screen and (max-width: 1023px) {
+<br>    
+}
+<br>
+@media only screen and (max-width: 767px) {
+<br>   
+}
+<br>
+@media only screen and (max-width: 480px) {
+<br>    
+}
 
 
 
