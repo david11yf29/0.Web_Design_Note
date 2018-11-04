@@ -139,7 +139,8 @@ Inline-block vs block(Use situation)
 [w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
 
 ## 18. Clearfix
-
+In order to keep our code clean and organized, we define one class, clearfix, on the  ::after pseudo-class of which we apply clear: both. Now, because an  ::after pseudo-class needs a defined content - even if empty - to register in the document, we put content: ' ' in it as well. And, in order to make sure it spans the whole area of its children, we set it  to display: block (or table in some cases). Visibility: hidden also helps as a fallback with older versions of IE, where the hack wasn't implemented yet. So then, you can just use the bare code you've found :
+<br>
 .clearfix::after {
 <br>
 &nbsp;&nbsp;content: '.';
@@ -154,6 +155,9 @@ Inline-block vs block(Use situation)
 <br>
 }
 <br>
+And just add the clearfix class to the element that needs to be cleared (the parent of the floated elements) in the HTML.
+<br>
+[Understanding the Humble Clearfix](https://www.fuseinteractive.ca/blog/understanding-humble-clearfix)
 
 
 
