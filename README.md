@@ -231,7 +231,7 @@ The initial-scale=1.0 part sets the initial zoom level when the page is first lo
 <br>
 [w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
-
+---
 >常用 Markdown 語法範例  
 >1.標題 （符號：#）
 >>#的個數代表 H1-H6 html 標籤， 如 # => h1 , ## => h2 , (...) , ###### => h6  
@@ -248,7 +248,7 @@ The initial-scale=1.0 part sets the initial zoom level when the page is first lo
 >>兩下空格之後直接換行
 >7. 分割線  
 >>在單獨一行里輸入3個或以上的短橫線、星號或者下劃線  
-
+---
 
 
 
