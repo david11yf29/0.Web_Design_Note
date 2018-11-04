@@ -205,6 +205,7 @@ The option tags inside the select element define the available options in the li
 @media only screen and (max-width: 1200px) {
 <br>    
 }
+<br>  
 @media only screen and (max-width: 1023px) {
 <br>    
 }
