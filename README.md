@@ -198,6 +198,7 @@ The select element is used to create a drop-down list.
 The option tags inside the <select> element define the available options in the list.
 <br>
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
+<br>
 
 ## 25. Media Query 
 0px => 480px => 768px => 1024px => 1200px
