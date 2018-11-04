@@ -104,7 +104,7 @@ The HTML <figure> element represents self-contained content, frequently with a c
   
 ## 12. Overflow(Dealing the text or img when it is outside the region)
 The overflow property specifies what should happen if content overflows an element's box.
-This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
+This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. Ex: hidden.
 <br>
 [w3s](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
 
