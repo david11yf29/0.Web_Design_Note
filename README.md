@@ -108,6 +108,11 @@ This property specifies whether to clip content or to add scrollbars when an ele
 <br>
 [w3s](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
 
+## 13. Transition: transform(Dealing with the animoation duration)
+CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.
+<br>
+[w3s](https://www.w3schools.com/css/css3_transitions.asp)
+
 
 
 
