@@ -123,10 +123,22 @@ The :first-child selector is used to select the specified selector, only if it i
 <br>
 [w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
-## 16. Display
+## 16. CSS :nth-last-of-type() Selector
+The :nth-last-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.
+<br>
+n can be a number, a keyword, or a formula.
+<br>
+[w3s](https://www.w3schools.com/cssref/sel_nth-last-of-type.asp)
+
+## 16.5 The Difference Between :nth-child and :nth-of-type
+[css-tricks](https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
+
+## 17. Display
 Inline-block vs block(Use situation)
 <br>
 [w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
+
+
 
 
 
