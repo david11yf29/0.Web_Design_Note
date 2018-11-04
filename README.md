@@ -123,6 +123,11 @@ The :first-child selector is used to select the specified selector, only if it i
 <br>
 [w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
+## 16. Display
+Inline-block vs block
+<br>
+[w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
+
 
 
 
