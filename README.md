@@ -69,6 +69,8 @@ P.S. Just download through this folder
 ## 7. transform
 The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
 <br>
+The scale() method increases or decreases the size of an element (according to the parameters given for the width and height).
+<br>
 [w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
 
 ## 8. Color Palettes
