@@ -168,7 +168,7 @@ The vertical-align property sets the vertical alignment of an element.
 [w3s](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
 
 ## 20. HTML blockquote Tag
-The <blockquote> tag specifies a section that is quoted from another source.
+The blockquote tag specifies a section that is quoted from another source.
 <br>
 Usually use for someone want to say something.
 <br>
