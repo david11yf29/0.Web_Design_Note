@@ -218,6 +218,14 @@ The option tags inside the select element define the available options in the li
 <br>    
 }
 
+## 26. Responsive Web Design - The Viewport
+A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+<br>
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+<br>
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+<br>
+[w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
 
 
