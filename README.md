@@ -192,6 +192,13 @@ An input field can vary in many ways, depending on the type attribute.
 <br>
 [w3s](https://www.w3schools.com/tags/tag_input.asp)
 
+## 24. HTML select Tag
+The select element is used to create a drop-down list.
+<br>
+The option tags inside the <select> element define the available options in the list.
+<br>
+[w3s](https://www.w3schools.com/tags/tag_select.asp)
+
 
 
 
