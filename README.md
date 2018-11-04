@@ -246,6 +246,8 @@ The initial-scale=1.0 part sets the initial zoom level when the page is first lo
 >>一般一個加強使用兩個`>`
 >6. 換行
 >>兩下空格之後直接換行
+>7. 分割線  
+>>在單獨一行里輸入3個或以上的短橫線、星號或者下劃線  
 
 
 
