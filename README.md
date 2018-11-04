@@ -241,6 +241,9 @@ The initial-scale=1.0 part sets the initial zoom level when the page is first lo
 >>_italics_,  **bold**, and `code()`
 >4.圖片
 >>![picture alt](/images/photo.jpeg "Title is optional")
+>5.引用
+>>通過一個右尖括號來表示這是一段引用內容
+>>一般一個加強使用兩個`>`
 
 
 
