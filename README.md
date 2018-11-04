@@ -118,6 +118,11 @@ The opacity property specifies the opacity/transparency of an element(Combine wi
 <br>
 [w3s](https://www.w3schools.com/css/css_image_transparency.asp)
 
+## 15. CSS :first-child Selector
+The :first-child selector is used to select the specified selector, only if it is the first child of its parent.
+<br>
+[w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
+
 
 
 
