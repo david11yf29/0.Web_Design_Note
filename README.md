@@ -162,6 +162,11 @@ And just add the clearfix class to the element that needs to be cleared (the par
 <br>
 [Understanding the Humble Clearfix](https://www.fuseinteractive.ca/blog/understanding-humble-clearfix)
 
+## 19. CSS vertical-align Property
+The vertical-align property sets the vertical alignment of an element.
+<br>
+[w3s](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
+
 
 
 
