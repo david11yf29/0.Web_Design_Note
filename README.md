@@ -232,6 +232,21 @@ The initial-scale=1.0 part sets the initial zoom level when the page is first lo
 [w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
 
+`常用 Markdown 語法範例
+1.標題 （符號：#）
+
+#的個數代表 H1-H6 html 標籤， 如 # => h1 , ## => h2 , (...) , ###### => h6
+
+2. 連結 ( 符號 [link text] (http://url "optional title")）
+[wiki: 詞彙] 連結到 wikipedia 上對應的詞彙頁面 
+
+3. 粗體/斜體/程式碼
+_italics_,  **bold**, and `code()`
+4.圖片
+![picture alt](/images/photo.jpeg "Title is optional")`
+
+
+
 
 
 
