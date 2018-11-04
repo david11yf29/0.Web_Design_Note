@@ -101,6 +101,12 @@ h1:after {
 The HTML <figure> element represents self-contained content, frequently with a caption (<figcaption>), and is typically referenced as a single unit.
 <br>
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+  
+## 12. Overflow
+The overflow property specifies what should happen if content overflows an element's box.
+This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
+<br>
+[w3s](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
 
 
 
