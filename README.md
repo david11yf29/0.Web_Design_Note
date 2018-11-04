@@ -124,7 +124,7 @@ The :first-child selector is used to select the specified selector, only if it i
 [w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
 ## 16. Display
-Inline-block vs block
+Inline-block vs block(Use situation)
 <br>
 [w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
 
