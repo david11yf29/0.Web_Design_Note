@@ -142,16 +142,16 @@ Inline-block vs block(Use situation)
 
 .clearfix::after {
 <br>
-   content: '.';
-   <br>
-   clear: both;
-   <br>
-   display: block;
-   <br>
-   height: 0;
-   <br>
-   visibility: hidden;
-   <br>
+&nbsp;content: '.';
+<br>
+&nbsp;clear: both;
+<br>
+&nbsp;display: block;
+<br>
+&nbsp;height: 0;
+<br>
+&nbsp;visibility: hidden;
+<br>
 }
 <br>
 
