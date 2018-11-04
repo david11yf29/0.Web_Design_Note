@@ -113,6 +113,11 @@ CSS transitions allows you to change property values smoothly (from one value to
 <br>
 [w3s](https://www.w3schools.com/css/css3_transitions.asp)
 
+## 14. Opacity
+The opacity property specifies the opacity/transparency of an element(Combine with background-color(white or black) for usage).
+<br>
+[w3s](https://www.w3schools.com/css/css_image_transparency.asp)
+
 
 
 
