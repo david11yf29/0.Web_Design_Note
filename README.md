@@ -183,6 +183,15 @@ The background-attachment property sets whether a background image scrolls with 
 ## 22. Special Characters
 [css-tricks](https://css-tricks.com/snippets/html/glyphs/)
 
+## 23. HTML input Tag
+The input tag specifies an input field where the user can enter data.
+<br>
+input elements are used within a form element to declare input controls that allow users to input data.
+<br>
+An input field can vary in many ways, depending on the type attribute.
+<br>
+[w3s](https://www.w3schools.com/tags/tag_input.asp)
+
 
 
 
