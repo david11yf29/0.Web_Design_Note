@@ -160,11 +160,11 @@ The `<option>` tags inside the select element define the available options in th
 
 ## 25. Media Query 
 0px => 480px => 768px => 1024px => 1200px  
-@media only screen and (max-width: 1200px) {    
+@media only screen and (max-width: 1200px) {  
 }   
-@media only screen and (max-width: 1023px) {    
+@media only screen and (max-width: 1023px) {  
 }  
-@media only screen and (max-width: 767px) {   
+@media only screen and (max-width: 767px) {  
 }  
 @media only screen and (max-width: 480px) {  
 }  
@@ -172,8 +172,8 @@ The `<option>` tags inside the select element define the available options in th
 ## 26. Responsive Web Design - The Viewport
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
 A `<meta>` viewport element gives the browser instructions on how to control the page's dimensions and scaling.  
-The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).  
-The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.  
+The `width=device-width` part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).  
+The `initial-scale=1.0` part sets the initial zoom level when the page is first loaded by the browser.  
 [w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
 ---
