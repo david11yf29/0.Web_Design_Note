@@ -56,129 +56,94 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 [w3s](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
 
 ## 5. text-rendering
-提昇易讀性
-<br>
+提昇易讀性  
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
 
 ## 6. grid
 
-Split columns up to 12.
-<br>
-P.S. Just download through this folder
-<br>
+Split columns up to 12.  
+P.S. Just download through this folder  
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
 ## 7. transform
-The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).
-<br>
-The scale() method increases or decreases the size of an element (according to the parameters given for the width and height).
-<br>
+The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).  
+The scale() method increases or decreases the size of an element (according to the parameters given for the width and height).  
 [w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
 
 ## 8. Color Palettes
-Color examples
-<br>
-[Flat UI Colors](https://flatuicolors.com/)
-<br/>
+Color examples  
+[Flat UI Colors](https://flatuicolors.com/)  
 [0to255](http://www.0to255.com/)
 
 ## 9. Ionicons
-Beautifully crafted open source icons
-<br>
+Beautifully crafted open source icons  
 [Ionicons](https://ionicons.com/)
 
 ## 10. CSS Pseudo-elements
-While h elements are always block elements by default, the content you add to the :after pseudo-class of your h2 element is by default an inline element.  So, to give the inserted element a height, padding, margins and so  forth, you’ll usually have to define it explicitly as a block-level element.
-<br>
-Ex:
-<br>
+While h elements are always block elements by default, the content you add to the :after pseudo-class of your h2 element is by default an inline element.  So, to give the inserted element a height, padding, margins and so  forth, you’ll usually have to define it explicitly as a block-level element.  
+Ex:  
 h1:after {
   display: block;
   content: " ";
-}
-<br>
+}  
 [w3s](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
 ## 11. figure and figcaption
-The HTML <figure> element represents self-contained content, frequently with a caption (<figcaption>), and is typically referenced as a single unit.
-<br>
+The HTML <figure> element represents self-contained content, frequently with a caption (<figcaption>), and is typically referenced as a single unit.  
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
   
 ## 12. Overflow(Dealing the text or img when it is outside the region)
 The overflow property specifies what should happen if content overflows an element's box.
-This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. Ex: hidden.
-<br>
+This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. Ex: hidden.  
 [w3s](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
 
 ## 13. Transition(Dealing with the animoation duration)
-CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.
-<br>
+CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.  
 [w3s](https://www.w3schools.com/css/css3_transitions.asp)
 
 ## 14. Opacity
-The opacity property specifies the opacity/transparency of an element(Combine with background-color(white or black) for usage).
-<br>
+The opacity property specifies the opacity/transparency of an element(Combine with background-color(white or black) for usage).  
 [w3s](https://www.w3schools.com/css/css_image_transparency.asp)
 
 ## 15. CSS :first-child Selector
-The :first-child selector is used to select the specified selector, only if it is the first child of its parent.
-<br>
+The :first-child selector is used to select the specified selector, only if it is the first child of its parent.  
 [w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
 ## 16. CSS :nth-last-of-type() Selector
-The :nth-last-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.
-<br>
-n can be a number, a keyword, or a formula.
-<br>
+The :nth-last-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.  
+n can be a number, a keyword, or a formula.  
 [w3s](https://www.w3schools.com/cssref/sel_nth-last-of-type.asp)
 
 ## 16.5 The Difference Between :nth-child and :nth-of-type
 [css-tricks](https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
 
 ## 17. Display
-Inline-block vs block(Use situation)
-<br>
+Inline-block vs block(Use situation)  
 [w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
 
 ## 18. Clearfix(Dealing wtih float shifting)
-In order to keep our code clean and organized, we define one class, clearfix, on the  ::after pseudo-class of which we apply clear: both. Now, because an  ::after pseudo-class needs a defined content - even if empty - to register in the document, we put content: ' ' in it as well. And, in order to make sure it spans the whole area of its children, we set it  to display: block (or table in some cases). Visibility: hidden also helps as a fallback with older versions of IE, where the hack wasn't implemented yet. So then, you can just use the bare code you've found :
-<br>
-<br>
-.clearfix::after {
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;content: '.';
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;clear: both;
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;display: block;
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;height: 0;
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;visibility: hidden;
-<br>
-}
-<br>
-<br>
-And just add the clearfix class to the element that needs to be cleared (the parent of the floated elements) in the HTML.
-<br>
-<br>
+In order to keep our code clean and organized, we define one class, clearfix, on the  ::after pseudo-class of which we apply clear: both. Now, because an  ::after pseudo-class needs a defined content - even if empty - to register in the document, we put content: ' ' in it as well. And, in order to make sure it spans the whole area of its children, we set it  to display: block (or table in some cases). Visibility: hidden also helps as a fallback with older versions of IE, where the hack wasn't implemented yet. So then, you can just use the bare code you've found :  
+.clearfix::after {  
+&nbsp;&nbsp;&nbsp;&nbsp;content: '.';  
+&nbsp;&nbsp;&nbsp;&nbsp;clear: both;  
+&nbsp;&nbsp;&nbsp;&nbsp;display: block;  
+&nbsp;&nbsp;&nbsp;&nbsp;height: 0;  
+&nbsp;&nbsp;&nbsp;&nbsp;visibility: hidden;  
+}  
+And just add the clearfix class to the element that needs to be cleared (the parent of the floated elements) in the HTML.  
 [Understanding the Humble Clearfix](https://www.fuseinteractive.ca/blog/understanding-humble-clearfix)
 
 ## 19. CSS vertical-align Property
-The vertical-align property sets the vertical alignment of an element.
-<br>
+The vertical-align property sets the vertical alignment of an element.  
 [w3s](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
 
 ## 20. HTML blockquote Tag
-The blockquote tag specifies a section that is quoted from another source.
-<br>
-Usually use with site element for someone want to say something.
-<br>
+The blockquote tag specifies a section that is quoted from another source.  
+Usually use with site element for someone want to say something.  
 [w3s](https://www.w3schools.com/tags/tag_blockquote.asp)
 
 ## 21. CSS background-attachment Property
-The `<background-attachment>` property sets whether a background image scrolls with the rest of the page, or is fixed.
-<br>
+The `<background-attachment>` property sets whether a background image scrolls with the rest of the page, or is fixed.  
 [w3s](https://www.w3schools.com/cssref/pr_background-attachment.asp)
 
 
@@ -186,49 +151,32 @@ The `<background-attachment>` property sets whether a background image scrolls w
 [css-tricks](https://css-tricks.com/snippets/html/glyphs/)
 
 ## 23. HTML input Tag
-The `<input>` tag specifies an input field where the user can enter data.
-<br>
-`<input>` elements are used within a form element to declare input controls that allow users to input data.
-<br>
-An input field can vary in many ways, depending on the type attribute.
-<br>
+The `<input>` tag specifies an input field where the user can enter data.  
+`<input>` elements are used within a form element to declare input controls that allow users to input data.  
+An input field can vary in many ways, depending on the type attribute.  
 [w3s](https://www.w3schools.com/tags/tag_input.asp)
 
 ## 24. HTML select Tag
-The `<select>` element is used to create a drop-down list.
-<br>
-The `<option>` tags inside the select element define the available options in the list.
-<br>
+The `<select>` element is used to create a drop-down list.  
+The `<option>` tags inside the select element define the available options in the list.  
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
 
 ## 25. Media Query 
-0px => 480px => 768px => 1024px => 1200px
-<br>
-@media only screen and (max-width: 1200px) {
-<br>    
-}
-<br>  
-@media only screen and (max-width: 1023px) {
-<br>    
-}
-<br>
-@media only screen and (max-width: 767px) {
-<br>   
-}
-<br>
-@media only screen and (max-width: 480px) {
-<br>    
-}
+0px => 480px => 768px => 1024px => 1200px  
+@media only screen and (max-width: 1200px) {    
+}   
+@media only screen and (max-width: 1023px) {    
+}  
+@media only screen and (max-width: 767px) {   
+}  
+@media only screen and (max-width: 480px) {  
+}  
 
 ## 26. Responsive Web Design - The Viewport
-`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
-<br>
-A `<meta>` viewport element gives the browser instructions on how to control the page's dimensions and scaling.
-<br>
-The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
-<br>
-The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
-<br>
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
+A `<meta>` viewport element gives the browser instructions on how to control the page's dimensions and scaling.  
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).  
+The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.  
 [w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
 ---
