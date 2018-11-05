@@ -178,6 +178,7 @@ The `initial-scale=1.0` part sets the initial zoom level when the page is first 
 
 ## 27. Autoprefixer
 First install autoprefixer on brackets and select all the code in style.css(queries.css), then Edit => Auto Prefix Selection. It will automatically do all the stuff for you
+**P.S. Also test different web browsers like Safari, IE, etc...**
 
 ---
 >常用 Markdown 語法範例  
