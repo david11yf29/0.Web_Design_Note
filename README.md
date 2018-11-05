@@ -47,8 +47,7 @@ clear: both;
 - Normalizes styles for a wide range of elements.
 - Corrects bugs and common browser inconsistencies.
 - Improves usability with subtle modifications.
-- Explains what code does using detailed comments.
-
+- Explains what code does using detailed comments.  
 [normalize.css](https://github.com/necolas/normalize.css)
 
 ## 4. border-sizing
@@ -59,9 +58,8 @@ clear: both;
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
 
 ## 6. grid
-
 Split columns up to 12.  
-P.S. Just download through this folder  
+_P.S. Just download through this folder_  
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
 ## 7. transform
