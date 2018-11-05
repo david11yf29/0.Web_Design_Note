@@ -35,11 +35,11 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 [Article from Medium](https://medium.freecodecamp.org/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26)
 
 ## 2. Counterpart of the float
-`.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}`
+>`.clearfix:after {
+>  content: "";
+>  display: table;
+>  clear: both;
+>}`
 
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
