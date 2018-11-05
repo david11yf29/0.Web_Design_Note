@@ -59,7 +59,7 @@ clear: both;
 
 ## 6. grid
 Split columns up to 12.  
-_P.S. Just download through this folder_  
+**P.S. Just download through this folder**  
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
 ## 7. transform
