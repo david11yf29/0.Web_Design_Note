@@ -194,6 +194,10 @@ Go to this website and copy the link and paste after the `</body>` element in ht
 # jQuery
 ---
 
+## 29. jQuery
+Go to the link and look for the jQuery and copy paste after the `</body>` element  
+[Google Libraries](https://developers.google.com/speed/libraries/)
+
 ---
 >常用 Markdown 語法範例  
 >1.標題 （符號：#）
