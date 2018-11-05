@@ -177,7 +177,7 @@ The `initial-scale=1.0` part sets the initial zoom level when the page is first 
 [w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
 ## 27. Autoprefixer
-First install autoprefixer on brackets and select all the code in style.css(queries.css), then Edit => Auto Prefix Selection. It will automatically do all the stuff for you
+First install autoprefixer on brackets and select all the code in style.css(queries.css), then Edit => Auto Prefix Selection. It will automatically do all the stuff for you  
 **P.S. Also test different web browsers like Safari, IE, etc...**
 
 ---
