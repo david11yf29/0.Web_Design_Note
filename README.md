@@ -158,6 +158,8 @@ The `<select>` element is used to create a drop-down list.
 The `<option>` tags inside the select element define the available options in the list.  
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
 
+---
+
 ## 25. Media Query 
 0px => 480px => 768px => 1024px => 1200px  
 @media only screen and (max-width: 1200px) {  
@@ -185,6 +187,8 @@ Go to this website and copy the link and paste after the `</body>` element in ht
 [jsdelivr - respond](https://www.jsdelivr.com/package/npm/respond.min.js)
 [jsdelivr - html5shiv](https://www.jsdelivr.com/package/npm/html5shiv)
 [jsdelivr - selectivizr](https://www.jsdelivr.com/package/npm/selectivizr)
+
+---
 
 ---
 >常用 Markdown 語法範例  
