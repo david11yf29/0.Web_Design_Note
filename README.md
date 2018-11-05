@@ -79,14 +79,14 @@ Beautifully crafted open source icons
 ## 10. CSS Pseudo-elements
 While `<h>` elements are always block elements by default, the content you add to the `:after` pseudo-class of your `<h2>` element is by default an inline element.  So, to give the inserted element a height, padding, margins and so  forth, you’ll usually have to define it explicitly as a block-level element.  
 Ex:  
-`h1:after {
+h1:after {
   display: block;
   content: " ";  
-}`
+}
 [w3s](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
 ## 11. figure and figcaption
-The HTML <figure> element represents self-contained content, frequently with a caption (<figcaption>), and is typically referenced as a single unit.  
+The HTML `<figure>` element represents self-contained content, frequently with a caption `<figcaption>`, and is typically referenced as a single unit.  
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
   
 ## 12. Overflow(Dealing the text or img when it is outside the region)
@@ -103,11 +103,11 @@ The opacity property specifies the opacity/transparency of an element(Combine wi
 [w3s](https://www.w3schools.com/css/css_image_transparency.asp)
 
 ## 15. CSS :first-child Selector
-The :first-child selector is used to select the specified selector, only if it is the first child of its parent.  
+The `:first-child` selector is used to select the specified selector, only if it is the first child of its parent.  
 [w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
 ## 16. CSS :nth-last-of-type() Selector
-The :nth-last-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.  
+The `:nth-last-of-type(n)` selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.  
 n can be a number, a keyword, or a formula.  
 [w3s](https://www.w3schools.com/cssref/sel_nth-last-of-type.asp)
 
@@ -135,8 +135,8 @@ The vertical-align property sets the vertical alignment of an element.
 [w3s](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
 
 ## 20. HTML blockquote Tag
-The blockquote tag specifies a section that is quoted from another source.  
-Usually use with site element for someone want to say something.  
+The `<blockquote>` tag specifies a section that is quoted from another source.  
+Usually use with `<site>` element for someone want to say something.  
 [w3s](https://www.w3schools.com/tags/tag_blockquote.asp)
 
 ## 21. CSS background-attachment Property
