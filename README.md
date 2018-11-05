@@ -36,9 +36,9 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 ## 2. Counterpart of the float
 `.clearfix:after {  
-  content: "";  
-  display: table;  
-  clear: both;  
+content: "";  
+display: table;  
+clear: both;  
 }`  
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
