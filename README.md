@@ -159,6 +159,8 @@ The `<option>` tags inside the select element define the available options in th
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
 
 ---
+# Responsive web design with media queries
+---
 
 ## 25. Media Query 
 0px => 480px => 768px => 1024px => 1200px  
@@ -188,6 +190,8 @@ Go to this website and copy the link and paste after the `</body>` element in ht
 [jsdelivr - html5shiv](https://www.jsdelivr.com/package/npm/html5shiv)
 [jsdelivr - selectivizr](https://www.jsdelivr.com/package/npm/selectivizr)
 
+---
+# jQuery
 ---
 
 ---
