@@ -29,17 +29,17 @@ They are not affected by scrolling.
 
 5. Sticky:  
 Sticky can be explained as a mix of position: relative and position: fixed.
-It behaves until a declated point like position: relative, after that is changes its behavior to position: fixed. 
+It behaves until a declated point like position: relative, after that is changes its behavior to `position: fixed`. 
 P.S. Tool bar for the website usually uses sticky, and is not supported in Internet Explorer and earlier version of Edge.
 
 [Article from Medium](https://medium.freecodecamp.org/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26)
 
 ## 2. Counterpart of the float
-.clearfix:after {
+`.clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
+}`
 
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
