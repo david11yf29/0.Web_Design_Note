@@ -181,7 +181,7 @@ First install autoprefixer on brackets and select all the code in style.css(quer
 **P.S. Also test different web browsers like Safari, IE, etc...**
 
 ## 28. respond.min.js
-Go to this website and copy the link and paste after the `</body>` element in html file.
+Go to this website and copy the link and paste after the `</body>` element in html file.  
 [jsdelivr](https://www.jsdelivr.com/package/npm/respond.min.js)
 
 ---
