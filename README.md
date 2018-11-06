@@ -196,7 +196,12 @@ Go to this website and copy the link and paste before the `</body>` element in h
 
 ## 29. jQuery
 Go to the link and look for the jQuery and copy paste before the `</body>` element  
-[Google Libraries](https://developers.google.com/speed/libraries/)
+[Google Libraries](https://developers.google.com/speed/libraries/)  
+
+## 30. Waypoints
+**For the sticky navigation**  
+Click the download button on the website, and find the `jquery.waypoints.min.js` file and put into your project.  
+[Waypoints](http://imakewebthings.com/waypoints/)
 
 ---
 >常用 Markdown 語法範例  
