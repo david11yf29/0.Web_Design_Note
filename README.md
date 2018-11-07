@@ -225,7 +225,7 @@ Click the download button on the website, and find the `jquery.waypoints.min.js`
 ---
 
 ## Part2: Javascript
->JavaScript:understanding the weird parts  
+>JavaScript: Understanding the Weird Parts  
 >[pjchender.blogspot.com](https://pjchender.blogspot.com/2017/06/javascript-understanding-weird-part.html)
 
 ### 1. Ternary Operator
