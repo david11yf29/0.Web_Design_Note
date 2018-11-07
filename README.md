@@ -1,8 +1,10 @@
-# Web Design Basics
+# Part1 Web Design Basics & Part2 Javascript
 
-### Always consider about media queries when designing the website
+## Always consider about media queries when designing the website
 
-## 0. Web Design Elements
+## Part1: Web Design Basics
+
+### 0. Web Design Elements
 This is the Jonas' udemy course that I had took for the beginner, and the instructor already listed all the items and resources we will use throught the process.
 
 [Everything you need for web](http://codingheroes.io/resources/ )
@@ -10,7 +12,7 @@ This is the Jonas' udemy course that I had took for the beginner, and the instru
 [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/)
 
 
-## 1. CSS Position Properties
+### 1. CSS Position Properties
 1. static:  
 Is the default value.
 Div's are block elements by default.
@@ -34,7 +36,7 @@ P.S. Tool bar for the website usually uses sticky, and is not supported in Inter
 
 [Article from Medium](https://medium.freecodecamp.org/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26)
 
-## 2. Counterpart of the float
+### 2. Counterpart of the float
 `.clearfix:after {  
 content: "";  
 display: table;  
@@ -42,7 +44,7 @@ clear: both;
 }`  
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
-## 3. normalize.css
+### 3. normalize.css
 - Preserves useful defaults, unlike many CSS resets.
 - Normalizes styles for a wide range of elements.
 - Corrects bugs and common browser inconsistencies.
@@ -50,33 +52,33 @@ clear: both;
 - Explains what code does using detailed comments.  
 [normalize.css](https://github.com/necolas/normalize.css)
 
-## 4. border-sizing
+### 4. border-sizing
 [w3s](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
 
-## 5. text-rendering
+### 5. text-rendering
 提昇易讀性  
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
 
-## 6. grid
+### 6. grid
 Split columns up to 12.  
 **P.S. Just download through this folder**  
 [Responsive Grid System](http://www.responsivegridsystem.com/)
 
-## 7. transform
+### 7. transform
 The `translate()` method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).  
 The `scale()` method increases or decreases the size of an element (according to the parameters given for the width and height).  
 [w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
 
-## 8. Color Palettes
+### 8. Color Palettes
 Color examples  
 [Flat UI Colors](https://flatuicolors.com/)  
 [0to255](http://www.0to255.com/)
 
-## 9. Ionicons
+### 9. Ionicons
 Beautifully crafted open source icons  
 [Ionicons](https://ionicons.com/)
 
-## 10. CSS Pseudo-elements
+### 10. CSS Pseudo-elements
 While `<h>` elements are always block elements by default, the content you add to the `:after` pseudo-class of your `<h2>` element is by default an inline element.  So, to give the inserted element a height, padding, margins and so  forth, you’ll usually have to define it explicitly as a block-level element.  
 Ex:  
 h1:after {
@@ -85,40 +87,40 @@ h1:after {
 }
 [w3s](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
-## 11. figure and figcaption
+### 11. figure and figcaption
 The HTML `<figure>` element represents self-contained content, frequently with a caption `<figcaption>`, and is typically referenced as a single unit.  
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
   
-## 12. Overflow(Dealing the text or img when it is outside the region)
+### 12. Overflow(Dealing the text or img when it is outside the region)
 The overflow property specifies what should happen if content overflows an element's box.
 This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. Ex: hidden.  
 [w3s](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
 
-## 13. Transition(Dealing with the animoation duration)
+### 13. Transition(Dealing with the animoation duration)
 CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.  
 [w3s](https://www.w3schools.com/css/css3_transitions.asp)
 
-## 14. Opacity
+### 14. Opacity
 The opacity property specifies the opacity/transparency of an element(Combine with background-color(white or black) for usage).  
 [w3s](https://www.w3schools.com/css/css_image_transparency.asp)
 
-## 15. CSS :first-child Selector
+### 15. CSS :first-child Selector
 The `:first-child` selector is used to select the specified selector, only if it is the first child of its parent.  
 [w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
-## 16. CSS :nth-last-of-type() Selector
+### 16. CSS :nth-last-of-type() Selector
 The `:nth-last-of-type(n)` selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.  
 n can be a number, a keyword, or a formula.  
 [w3s](https://www.w3schools.com/cssref/sel_nth-last-of-type.asp)
 
-## 16.5 The Difference Between :nth-child and :nth-of-type
+### 16.5 The Difference Between :nth-child and :nth-of-type
 [css-tricks](https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
 
-## 17. Display
+### 17. Display
 Inline-block vs block(Use situation)  
 [w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
 
-## 18. Clearfix(Dealing wtih float shifting)
+### 18. Clearfix(Dealing wtih float shifting)
 In order to keep our code clean and organized, we define one class, clearfix, on the  ::after pseudo-class of which we apply clear: both. Now, because an  ::after pseudo-class needs a defined content - even if empty - to register in the document, we put content: ' ' in it as well. And, in order to make sure it spans the whole area of its children, we set it  to display: block (or table in some cases). Visibility: hidden also helps as a fallback with older versions of IE, where the hack wasn't implemented yet. So then, you can just use the bare code you've found :  
 .clearfix::after {  
 &nbsp;&nbsp;&nbsp;&nbsp;content: '.';  
@@ -130,30 +132,30 @@ In order to keep our code clean and organized, we define one class, clearfix, on
 And just add the clearfix class to the element that needs to be cleared (the parent of the floated elements) in the HTML.  
 [Understanding the Humble Clearfix](https://www.fuseinteractive.ca/blog/understanding-humble-clearfix)
 
-## 19. CSS vertical-align Property
+### 19. CSS vertical-align Property
 The vertical-align property sets the vertical alignment of an element.  
 [w3s](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
 
-## 20. HTML blockquote Tag
+### 20. HTML blockquote Tag
 The `<blockquote>` tag specifies a section that is quoted from another source.  
 Usually use with `<site>` element for someone want to say something.  
 [w3s](https://www.w3schools.com/tags/tag_blockquote.asp)
 
-## 21. CSS background-attachment Property
+### 21. CSS background-attachment Property
 The `<background-attachment>` property sets whether a background image scrolls with the rest of the page, or is fixed.  
 [w3s](https://www.w3schools.com/cssref/pr_background-attachment.asp)
 
 
-## 22. Special Characters
+### 22. Special Characters
 [css-tricks](https://css-tricks.com/snippets/html/glyphs/)
 
-## 23. HTML input Tag
+### 23. HTML input Tag
 The `<input>` tag specifies an input field where the user can enter data.  
 `<input>` elements are used within a form element to declare input controls that allow users to input data.  
 An input field can vary in many ways, depending on the type attribute.  
 [w3s](https://www.w3schools.com/tags/tag_input.asp)
 
-## 24. HTML select Tag
+### 24. HTML select Tag
 The `<select>` element is used to create a drop-down list.  
 The `<option>` tags inside the select element define the available options in the list.  
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
@@ -162,7 +164,7 @@ The `<option>` tags inside the select element define the available options in th
 # Responsive web design with media queries
 ---
 
-## 25. Media Query 
+### 25. Media Query 
 0px => 480px => 768px => 1024px => 1200px  
 @media only screen and (max-width: 1200px) {  
 }   
@@ -173,18 +175,18 @@ The `<option>` tags inside the select element define the available options in th
 @media only screen and (max-width: 480px) {  
 }  
 
-## 26. Responsive Web Design - The Viewport
+### 26. Responsive Web Design - The Viewport
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
 A `<meta>` viewport element gives the browser instructions on how to control the page's dimensions and scaling.  
 The `width=device-width` part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).  
 The `initial-scale=1.0` part sets the initial zoom level when the page is first loaded by the browser.  
 [w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
-## 27. Autoprefixer
+### 27. Autoprefixer
 First install autoprefixer on brackets and select all the code in style.css(queries.css), then Edit => Auto Prefix Selection. It will automatically do all the stuff for you  
 **P.S. Also test different web browsers like Safari, IE, etc...**
 
-## 28. respond.min.js and html5shiv and selectivizr
+### 28. respond.min.js and html5shiv and selectivizr
 Go to this website and copy the link and paste before the `</body>` element in html file.  
 [jsdelivr - respond](https://www.jsdelivr.com/package/npm/respond.min.js)
 [jsdelivr - html5shiv](https://www.jsdelivr.com/package/npm/html5shiv)
@@ -194,11 +196,11 @@ Go to this website and copy the link and paste before the `</body>` element in h
 # jQuery
 ---
 
-## 29. jQuery
+### 29. jQuery
 Go to the link and look for the jQuery and copy paste before the `</body>` element  
 [Google Libraries](https://developers.google.com/speed/libraries/)  
 
-## 30. Waypoints
+### 30. Waypoints
 **For the sticky navigation**  
 Click the download button on the website, and find the `jquery.waypoints.min.js` file and put into your project.  
 [Waypoints](http://imakewebthings.com/waypoints/)
@@ -221,6 +223,12 @@ Click the download button on the website, and find the `jquery.waypoints.min.js`
 >7. 分割線  
 >>在單獨一行里輸入3個或以上的短橫線、星號或者下劃線  
 ---
+
+## Part2: Javascript
+
+### 1. Ternary Pperator
+The conditional (ternary) operator is the only JavaScript operator that takes three operands. This operator is frequently used as a shortcut for the if statement.  
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 
 
