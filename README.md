@@ -228,7 +228,10 @@ Click the download button on the website, and find the `jquery.waypoints.min.js`
 
 ### 1. Ternary Operator
 The conditional (ternary) operator is the only JavaScript operator that takes three operands. This operator is frequently used as a shortcut for the if statement.  
-[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+[MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)  
+
+### 2. function statements vs function expressions
+[pjchender.blogspot.com](https://pjchender.blogspot.com/2016/03/javascriptfunction-statements-and.html)
 
 
 
