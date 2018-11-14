@@ -235,6 +235,9 @@ The conditional (ternary) operator is the only JavaScript operator that takes th
 ### 2. function statements vs function expressions
 [pjchender.blogspot.com](https://pjchender.blogspot.com/2016/03/javascriptfunction-statements-and.html)
 
+### 3. call( ), apply( ), and bind( )
+[pjchender.blogspot.com][https://pjchender.blogspot.com/2016/06/function-borrowingfunction-currying.html]
+
 
 
 
