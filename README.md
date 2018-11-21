@@ -238,6 +238,30 @@ The conditional (ternary) operator is the only JavaScript operator that takes th
 ### 3. call( ), apply( ), and bind( )
 [pjchender.blogspot.com][https://pjchender.blogspot.com/2016/06/function-borrowingfunction-currying.html]
 
+### 4. method
+- .forEach
+- .map
+- .indexOf
+- .splice
+- .abs
+- .toFixed
+- .parseFloat
+- .replace
+- .formatNumber
+- .insertAdjacentHTML
+- .parentNode
+- DOMstrings
+- .call
+- .getFullYear
+- .getMonth
+- .inputType
+- .inputDescription 
+- .inputValue
+- .toggle
+- .getDOMstrings
+- .addEventListener
+ -.
+
 
 
 
