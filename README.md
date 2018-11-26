@@ -160,6 +160,9 @@ The `<select>` element is used to create a drop-down list.
 The `<option>` tags inside the select element define the available options in the list.  
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
 
+### 25. text-align: justify
+Causes all lines of text except the last line to meet the left and right edges of the line box.  
+
 ---
 # Responsive web design with media queries
 ---
