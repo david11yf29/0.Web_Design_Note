@@ -166,6 +166,9 @@ Causes all lines of text except the last line to meet the left and right edges o
 ### 26. display: flex
 [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 
+### 27. grid-template-columns
+[w3s](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns)  
+
 ---
 # Responsive web design with media queries
 ---
