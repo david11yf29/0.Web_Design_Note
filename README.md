@@ -169,6 +169,9 @@ Causes all lines of text except the last line to meet the left and right edges o
 ### 27. grid-template-columns
 [w3s](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns)  
 
+### 28. grid-column
+[w3s](https://www.w3schools.com/cssref/pr_grid-column.asp)  
+
 ---
 # Responsive web design with media queries
 ---
