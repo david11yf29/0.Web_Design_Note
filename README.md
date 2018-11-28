@@ -163,6 +163,9 @@ The `<option>` tags inside the select element define the available options in th
 ### 25. text-align: justify
 Causes all lines of text except the last line to meet the left and right edges of the line box.  
 
+### 26. display: flex
+[css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+
 ---
 # Responsive web design with media queries
 ---
