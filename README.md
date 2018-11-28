@@ -172,6 +172,9 @@ Causes all lines of text except the last line to meet the left and right edges o
 ### 28. grid-column
 [w3s](https://www.w3schools.com/cssref/pr_grid-column.asp)  
 
+### 29. grid-area
+[w3s](https://www.w3schools.com/cssref/pr_grid-area.asp)  
+
 ---
 # Responsive web design with media queries
 ---
@@ -202,7 +205,7 @@ First install autoprefixer on brackets and select all the code in style.css(quer
 Go to this website and copy the link and paste before the `</body>` element in html file.  
 [jsdelivr - respond](https://www.jsdelivr.com/package/npm/respond.min.js)
 [jsdelivr - html5shiv](https://www.jsdelivr.com/package/npm/html5shiv)
-[jsdelivr - selectivizr](https://www.jsdelivr.com/package/npm/selectivizr)
+[jsdelivr - selectivizr](https://www.jsdelivr.com/package/npm/selectivizr)  
 
 ---
 # jQuery
