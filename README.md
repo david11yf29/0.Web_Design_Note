@@ -181,15 +181,15 @@ This is for big project grid.
 [w3s](https://www.w3schools.com/cssref/pr_grid-area.asp) 
 
 ### 30. HTML5
-<datalist></datalist>  
-<video></video>  
-<audio></audio>  
-<figure>  
-  <img>  
-  <figcaption>  
-    <p></p>  
-  </figcaption>  
-</figure>  
+`<datalist></datalist>`  
+`<video></video>`  
+`<audio></audio>`  
+`<figure>`  
+  `<img>`  
+  `<figcaption>`  
+    `<p></p>`  
+  `</figcaption>`  
+`</figure>`  
 
 ### 31. CSS3
 h3-p {}: 有h3一起的p  
