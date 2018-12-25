@@ -196,6 +196,14 @@ h3-p {}: 有h3一起的p
 h3+p {}: h3下面第一個p  
 a[target] {}: 有target的a  
 a[href*="google"] {}: href連結裡有google的a  
+p:first-child {}: first p in each div (前面有其他就不行 ex:h3)  
+p:last-child {}  
+p:only-child {}
+p:first-of-type {}: first p in the div  
+p:not(.green) {}: p do not have green class  
+:not(div) {}: everything not div  
+p:first-letter {}  
+a:after { content: "("attr(href)")" }  
 
 
 ---
