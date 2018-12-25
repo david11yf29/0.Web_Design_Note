@@ -165,6 +165,11 @@ Causes all lines of text except the last line to meet the left and right edges o
 
 ### 26. display: flex
 [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+This is for small project grid.  
+
+## 27. displayL grid
+[css-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)  
+This is for big project grid.  
 
 ### 27. grid-template-columns
 [w3s](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns)  
