@@ -167,7 +167,7 @@ Causes all lines of text except the last line to meet the left and right edges o
 [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
 This is for small project grid.  
 
-## 27. displayL grid
+## 27. display grid
 [css-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)  
 This is for big project grid.  
 
@@ -178,7 +178,25 @@ This is for big project grid.
 [w3s](https://www.w3schools.com/cssref/pr_grid-column.asp)  
 
 ### 29. grid-area
-[w3s](https://www.w3schools.com/cssref/pr_grid-area.asp)  
+[w3s](https://www.w3schools.com/cssref/pr_grid-area.asp) 
+
+### 30. HTML5
+<datalist></datalist>  
+<video></video>  
+<audio></audio>  
+<figure>  
+  <img>  
+  <figcaption>  
+    <p></p>  
+  </figcaption>  
+</figure>  
+
+### 31. CSS3
+h3-p {}: 有h3一起的p  
+h3+p {}: h3下面第一個p  
+a[target] {}: 有target的a  
+a[href*="google"] {}: href連結裡有google的a  
+
 
 ---
 # Responsive web design with media queries
@@ -256,7 +274,7 @@ The conditional (ternary) operator is the only JavaScript operator that takes th
 [pjchender.blogspot.com](https://pjchender.blogspot.com/2016/03/javascriptfunction-statements-and.html)
 
 ### 3. call( ), apply( ), and bind( )
-[pjchender.blogspot.com][https://pjchender.blogspot.com/2016/06/function-borrowingfunction-currying.html]
+[pjchender.blogspot.com](https://pjchender.blogspot.com/2016/06/function-borrowingfunction-currying.html)  
 
 ### 4. method
 - .forEach
@@ -282,6 +300,25 @@ The conditional (ternary) operator is the only JavaScript operator that takes th
 - .addEventListener
  -.
 
+## Part3: Bootstrap  
+### 1. Layout for fluid
+### 2. Responsive breakpoints@media
+### 3. Grid System
+### 4. Navbars
+### 5. Components: Jumbotron, Card, popover  
+
+## Part4: API
+### 1. [Google maps API](cloud.google.com/maps-platform/)  
+### 2. Geocoding with Google Maps
+
+## Part5: Others  
+### 1. unsplash website for hgih resolution pictures
+[unsplash](https://unsplash.com/)  
+
+### 2. Bootstrap Themes for Reference
+[Bootstrap](https://themes.getbootstrap.com/)  
+
+### 3.
 
 
 
