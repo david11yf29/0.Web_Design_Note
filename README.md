@@ -10,6 +10,16 @@ HTML part
 6. 能按的都可以嘗試用button
 7. figure are perfect in review and also for picture and description, figure = blockquote + figcaption  
 
+CSS part  
+1. max-width: 120rem `最多就1200px，小於就等於目前視窗(viewport)`  
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
 # Part1 Web Design Basics & Part2 Javascript
 
 ## Always consider about media queries when designing the website
