@@ -3,9 +3,12 @@
 ---
 HTML part  
 1. First change the package.json file like name, description and scripts, then open terminal "npm install" will install all npm in your package.json file and then "npm run start"  
-2. icomoon.io for free SVG icon, after choose and downloaded we need SVG folder and change symbol-defs.svg name to sprite.svg, sprite.svg後面要去選你要的#icon- `<use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>`
-3.
-4.
+2. icomoon.io for free SVG icon, after choose and downloaded we need SVG folder and change symbol-defs.svg name to sprite.svg, sprite.svg後面要去選你要的#icon- `<use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>`  
+3. 額外點綴的可以用span element  
+4. 重點部分要用 main element  
+5. 圖片可以用figure element  
+6. 能按的都可以嘗試用button
+7. figure are perfect in review and also for picture and description, figure = blockquote + figcaption  
 
 # Part1 Web Design Basics & Part2 Javascript
 
