@@ -17,7 +17,7 @@ CSS part
 4. flex: 0 0 18%; `no grow no shrink basis 18%`   
 5. flex: 1; `能延伸多少就多少`  
 6. :root {} `存放自定義變數的地方`  
-7.`* {margin: 0; padding: 0;}` //以下都為CSS起手式(_base.scss)
+7. `* {margin: 0; padding: 0;}` //以下都為CSS起手式(_base.scss)
 `*,**::before,*::after {box-sizing: inherit;}`  // Will inherit border-box from html box-sizing
 `html {box-sizing: border-box; font-size: 62.5%;}`  // 1rem = 10px 10px/16px = 62.5% 
 8. 
