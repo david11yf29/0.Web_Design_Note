@@ -11,13 +11,14 @@ HTML part
 7. figure are perfect in review and also for picture and description, figure = blockquote + figcaption  
 
 CSS part  
-1. max-width: 120rem `最多就1200px，小於就等於目前視窗(viewport)`  
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+1. max-width: 120rem; `最多就1200px，小於就等於目前視窗(viewport)`  
+2. min-height: 50rem; `min- 跟之前用法一樣`
+3. flex-wrap: wrap; `沒有space就直接往下移動到下一排`  
+4. flex: 0 0 18%; `no grow no shrink basis 18%`   
+5. flex: 1; `能延伸多少就多少`  
+6. :root {} `存放自定義變數的地方`  
+7. `*,**::before,*::after {box-sizing: inherit;}`  // Will inherit border-box from html box-sizing
+
 8. 
 
 # Part1 Web Design Basics & Part2 Javascript
