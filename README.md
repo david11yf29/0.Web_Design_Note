@@ -1,6 +1,6 @@
 
 # Take away message from CSS flexbox Trillo project
-
+---
 
 
 
@@ -46,12 +46,9 @@ CSS part
 
 
 
-
-
-
 # Part1 Web Design Basics & Part2 Javascript
+---
 
-## Always consider about media queries when designing the website
 
 ## Part1: Web Design Basics
 
