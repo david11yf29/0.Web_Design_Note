@@ -86,20 +86,20 @@ clear: both;
 }`  
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
-### 5. text-rendering
+### 3. text-rendering
 提昇易讀性  
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
 
-### 8. Color Palettes
+### 4. Color Palettes
 Color examples  
 [Flat UI Colors](https://flatuicolors.com/)  
 [0to255](http://www.0to255.com/)
 
-### 9. Ionicons
+### 5. Ionicons
 Beautifully crafted open source icons  
 [Ionicons](https://ionicons.com/)
 
-### 10. CSS Pseudo-elements
+### 6. CSS Pseudo-elements
 While `<h>` elements are always block elements by default, the content you add to the `:after` pseudo-class of your `<h2>` element is by default an inline element.  So, to give the inserted element a height, padding, margins and so  forth, you’ll usually have to define it explicitly as a block-level element.  
 Ex:  
 h1:after {
@@ -108,32 +108,32 @@ h1:after {
 }
 [w3s](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
-### 11. figure and figcaption
+### 7. figure and figcaption
 The HTML `<figure>` element represents self-contained content, frequently with a caption `<figcaption>`, and is typically referenced as a single unit.  
 [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
   
-### 12. Overflow(Dealing the text or img when it is outside the region)
+### 8. Overflow(Dealing the text or img when it is outside the region)
 The overflow property specifies what should happen if content overflows an element's box.
 This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. Ex: hidden.  
 [w3s](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
 
-### 15. CSS :first-child Selector
+### 9. CSS :first-child Selector
 The `:first-child` selector is used to select the specified selector, only if it is the first child of its parent.  
 [w3s](https://www.w3schools.com/cssref/sel_firstchild.asp)
 
-### 16. CSS :nth-last-of-type() Selector
+### 10. CSS :nth-last-of-type() Selector
 The `:nth-last-of-type(n)` selector matches every element that is the nth child, of a particular type, of its parent, counting from the last child.  
 n can be a number, a keyword, or a formula.  
 [w3s](https://www.w3schools.com/cssref/sel_nth-last-of-type.asp)
 
-### 16.5 The Difference Between :nth-child and :nth-of-type
+### 11. The Difference Between :nth-child and :nth-of-type
 [css-tricks](https://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/)
 
-### 17. Display
+### 12. Display
 Inline-block vs block(Use situation)  
 [w3s](https://www.w3schools.com/cssref/pr_class_display.asp)
 
-### 18. Clearfix(Dealing wtih float shifting)
+### 13. Clearfix(Dealing wtih float shifting)
 In order to keep our code clean and organized, we define one class, clearfix, on the  ::after pseudo-class of which we apply clear: both. Now, because an  ::after pseudo-class needs a defined content - even if empty - to register in the document, we put content: ' ' in it as well. And, in order to make sure it spans the whole area of its children, we set it  to display: block (or table in some cases). Visibility: hidden also helps as a fallback with older versions of IE, where the hack wasn't implemented yet. So then, you can just use the bare code you've found :  
 .clearfix::after {  
 &nbsp;&nbsp;&nbsp;&nbsp;content: '.';  
@@ -145,38 +145,38 @@ In order to keep our code clean and organized, we define one class, clearfix, on
 And just add the clearfix class to the element that needs to be cleared (the parent of the floated elements) in the HTML.  
 [Understanding the Humble Clearfix](https://www.fuseinteractive.ca/blog/understanding-humble-clearfix)
 
-### 19. CSS vertical-align Property
+### 14. CSS vertical-align Property
 The vertical-align property sets the vertical alignment of an element.  
 [w3s](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)
 
-### 20. HTML blockquote Tag
+### 15. HTML blockquote Tag
 The `<blockquote>` tag specifies a section that is quoted from another source.  
 Usually use with `<site>` element for someone want to say something.  
 [w3s](https://www.w3schools.com/tags/tag_blockquote.asp)
 
-### 21. CSS background-attachment Property
+### 16. CSS background-attachment Property
 The `<background-attachment>` property sets whether a background image scrolls with the rest of the page, or is fixed.  
 [w3s](https://www.w3schools.com/cssref/pr_background-attachment.asp)
 
 
-### 22. Special Characters
+### 17. Special Characters
 [css-tricks](https://css-tricks.com/snippets/html/glyphs/)
 
-### 23. HTML input Tag
+### 18. HTML input Tag
 The `<input>` tag specifies an input field where the user can enter data.  
 `<input>` elements are used within a form element to declare input controls that allow users to input data.  
 An input field can vary in many ways, depending on the type attribute.  
 [w3s](https://www.w3schools.com/tags/tag_input.asp)
 
-### 24. HTML select Tag
+### 19. HTML select Tag
 The `<select>` element is used to create a drop-down list.  
 The `<option>` tags inside the select element define the available options in the list.  
 [w3s](https://www.w3schools.com/tags/tag_select.asp)
 
-### 25. text-align: justify
+### 20. text-align: justify
 Causes all lines of text except the last line to meet the left and right edges of the line box.  
 
-### 30. HTML5
+### 21. HTML5
 `<datalist></datalist>`  
 `<video></video>`  
 `<audio></audio>`  
@@ -187,7 +187,7 @@ Causes all lines of text except the last line to meet the left and right edges o
   `</figcaption>`  
 `</figure>`  
 
-### 31. CSS3
+### 22. CSS3
 h3-p {}: 有h3一起的p  
 h3+p {}: h3下面第一個p  
 a[target] {}: 有target的a  
@@ -204,7 +204,7 @@ a:after { content: "("attr(href)")" }
 Part2: RWD
 ---
 
-### 25. Media Query 
+### 1. Media Query 
 0px => 480px => 768px => 1024px => 1200px  
 @media only screen and (max-width: 1200px) {  
 }   
@@ -215,18 +215,18 @@ Part2: RWD
 @media only screen and (max-width: 480px) {  
 }  
 
-### 26. Responsive Web Design - The Viewport
+### 2. Responsive Web Design - The Viewport
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
 A `<meta>` viewport element gives the browser instructions on how to control the page's dimensions and scaling.  
 The `width=device-width` part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).  
 The `initial-scale=1.0` part sets the initial zoom level when the page is first loaded by the browser.  
 [w3s](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
-### 27. Autoprefixer
+### 3. Autoprefixer
 First install autoprefixer on brackets and select all the code in style.css(queries.css), then Edit => Auto Prefix Selection. It will automatically do all the stuff for you  
 **P.S. Also test different web browsers like Safari, IE, etc...**
 
-### 28. respond.min.js and html5shiv and selectivizr
+### 4. respond.min.js and html5shiv and selectivizr
 Go to this website and copy the link and paste before the `</body>` element in html file.  
 [jsdelivr - respond](https://www.jsdelivr.com/package/npm/respond.min.js)
 [jsdelivr - html5shiv](https://www.jsdelivr.com/package/npm/html5shiv)
@@ -235,33 +235,14 @@ Go to this website and copy the link and paste before the `</body>` element in h
 Part3: jQuery 
 ---
 
-### 29. jQuery
+### 1. jQuery
 Go to the link and look for the jQuery and copy paste before the `</body>` element  
 [Google Libraries](https://developers.google.com/speed/libraries/)  
 
-### 30. Waypoints
+### 2. Waypoints
 **For the sticky navigation**  
 Click the download button on the website, and find the `jquery.waypoints.min.js` file and put into your project.  
 [Waypoints](http://imakewebthings.com/waypoints/)
-
----
->常用 Markdown 語法範例  
->1.標題 （符號：#）
->>#的個數代表 H1-H6 html 標籤， 如 # => h1 , ## => h2 , (...) , ###### => h6  
->2. 連結 ( 符號 [link text] (http://url "optional title")）
->>[wiki: 詞彙] 連結到 wikipedia 上對應的詞彙頁面  
->3. 粗體/斜體/程式碼
->>_italics_,  **bold**, and `code()`  
->4. 圖片
->>![picture alt](/images/photo.jpeg "Title is optional")  
->5. 引用
->>通過一個右尖括號來表示這是一段引用內容
->>一般一個加強使用兩個`>`
->6. 換行
->>兩下空格之後直接換行
->7. 分割線  
->>在單獨一行里輸入3個或以上的短橫線、星號或者下劃線  
----
 
 Part4: Javascript
 ---
@@ -320,6 +301,25 @@ Part5: Bootstrap
 
 ### 2. Bootstrap Themes for Reference
 [Bootstrap](https://themes.getbootstrap.com/)  
+
+---
+>常用 Markdown 語法範例  
+>1.標題 （符號：#）
+>>#的個數代表 H1-H6 html 標籤， 如 # => h1 , ## => h2 , (...) , ###### => h6  
+>2. 連結 ( 符號 [link text] (http://url "optional title")）
+>>[wiki: 詞彙] 連結到 wikipedia 上對應的詞彙頁面  
+>3. 粗體/斜體/程式碼
+>>_italics_,  **bold**, and `code()`  
+>4. 圖片
+>>![picture alt](/images/photo.jpeg "Title is optional")  
+>5. 引用
+>>通過一個右尖括號來表示這是一段引用內容
+>>一般一個加強使用兩個`>`
+>6. 換行
+>>兩下空格之後直接換行
+>7. 分割線  
+>>在單獨一行里輸入3個或以上的短橫線、星號或者下劃線  
+---
 
 
 
