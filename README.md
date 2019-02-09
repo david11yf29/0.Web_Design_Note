@@ -1,6 +1,7 @@
 ---
 # Take away message from CSS flexbox Trillo project
----
+
+
 HTML part  
 1. First change the package.json file like name, description and scripts, then open terminal "npm install" will install all npm in your package.json file and then "npm run start"  
 2. icomoon.io for free SVG icon, after choose and downloaded we need SVG folder and change symbol-defs.svg name to sprite.svg, sprite.svg後面要去選你要的#icon- `<use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>`  
