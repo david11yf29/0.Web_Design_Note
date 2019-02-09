@@ -1,8 +1,6 @@
 
 # Take away message from CSS flexbox Trillo project
-
 ---
-
 HTML part  
 1. First change the package.json file like name, description and scripts, then open terminal "npm install" will install all npm in your package.json file and then "npm run start"  
 2. icomoon.io for free SVG icon, after choose and downloaded we need SVG folder and change symbol-defs.svg name to sprite.svg, sprite.svg後面要去選你要的#icon- `<use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>`  
@@ -91,30 +89,9 @@ clear: both;
 }`  
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
-### 3. normalize.css
-- Preserves useful defaults, unlike many CSS resets.
-- Normalizes styles for a wide range of elements.
-- Corrects bugs and common browser inconsistencies.
-- Improves usability with subtle modifications.
-- Explains what code does using detailed comments.  
-[normalize.css](https://github.com/necolas/normalize.css)
-
-### 4. border-sizing
-[w3s](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)
-
 ### 5. text-rendering
 提昇易讀性  
 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-rendering)
-
-### 6. grid
-Split columns up to 12.  
-**P.S. Just download through this folder**  
-[Responsive Grid System](http://www.responsivegridsystem.com/)
-
-### 7. transform
-The `translate()` method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).  
-The `scale()` method increases or decreases the size of an element (according to the parameters given for the width and height).  
-[w3s](https://www.w3schools.com/css/css3_2dtransforms.asp)
 
 ### 8. Color Palettes
 Color examples  
@@ -142,14 +119,6 @@ The HTML `<figure>` element represents self-contained content, frequently with a
 The overflow property specifies what should happen if content overflows an element's box.
 This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area. Ex: hidden.  
 [w3s](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
-
-### 13. Transition(Dealing with the animoation duration)
-CSS transitions allows you to change property values smoothly (from one value to another), over a given duration.  
-[w3s](https://www.w3schools.com/css/css3_transitions.asp)
-
-### 14. Opacity
-The opacity property specifies the opacity/transparency of an element(Combine with background-color(white or black) for usage).  
-[w3s](https://www.w3schools.com/css/css_image_transparency.asp)
 
 ### 15. CSS :first-child Selector
 The `:first-child` selector is used to select the specified selector, only if it is the first child of its parent.  
@@ -209,23 +178,6 @@ The `<option>` tags inside the select element define the available options in th
 
 ### 25. text-align: justify
 Causes all lines of text except the last line to meet the left and right edges of the line box.  
-
-### 26. display: flex
-[css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
-This is for small project grid.  
-
-## 27. display grid
-[css-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)  
-This is for big project grid.  
-
-### 27. grid-template-columns
-[w3s](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns)  
-
-### 28. grid-column
-[w3s](https://www.w3schools.com/cssref/pr_grid-column.asp)  
-
-### 29. grid-area
-[w3s](https://www.w3schools.com/cssref/pr_grid-area.asp) 
 
 ### 30. HTML5
 `<datalist></datalist>`  
