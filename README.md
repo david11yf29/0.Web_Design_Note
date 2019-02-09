@@ -1,5 +1,5 @@
 
-# Take away message from CSS flexbox Trillo project
+Take away message from CSS flexbox Trillo project
 ---
 HTML part  
 1. First change the package.json file like name, description and scripts, then open terminal "npm install" will install all npm in your package.json file and then "npm run start"  
