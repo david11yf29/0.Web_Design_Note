@@ -43,9 +43,8 @@ CSS part
 
 
 
-Part1 HTML + CSS + Media Queries + jQuery & Part2 Javascript
+Part1: Web Design Basics(HTML+CSS)
 ---
-## Part1: Web Design Basics
 
 ### 0. Web Design Elements
 This is the Jonas' udemy course that I had took for the beginner, and the instructor already listed all the items and resources we will use throught the process.
@@ -202,7 +201,7 @@ p:not(.green) {}: p do not have green class
 p:first-letter {}  
 a:after { content: "("attr(href)")" }  
 
-Responsive web design with media queries
+Part2: RWD
 ---
 
 ### 25. Media Query 
@@ -233,7 +232,7 @@ Go to this website and copy the link and paste before the `</body>` element in h
 [jsdelivr - html5shiv](https://www.jsdelivr.com/package/npm/html5shiv)
 [jsdelivr - selectivizr](https://www.jsdelivr.com/package/npm/selectivizr)  
 
-jQuery
+Part3: jQuery 
 ---
 
 ### 29. jQuery
@@ -264,7 +263,7 @@ Click the download button on the website, and find the `jquery.waypoints.min.js`
 >>在單獨一行里輸入3個或以上的短橫線、星號或者下劃線  
 ---
 
-Part2: Javascript
+Part4: Javascript
 ---
 >JavaScript: Understanding the Weird Parts  
 >[pjchender.blogspot.com](https://pjchender.blogspot.com/2017/06/javascript-understanding-weird-part.html)
@@ -303,7 +302,7 @@ The conditional (ternary) operator is the only JavaScript operator that takes th
 - .addEventListener
  -.
 
-Part3: Bootstrap
+Part5: Bootstrap
 ---
 ### 1. Layout for fluid
 ### 2. Responsive breakpoints@media
