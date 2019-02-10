@@ -1,4 +1,4 @@
- ```
+ ```javascript
  if (ass h o l e ) {
      else
  }
