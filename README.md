@@ -54,7 +54,7 @@ html {
   height: 100%;
   width: 3px;
 }
-``` 前面在加東西用法  
+```  
 18. ```transform-origin: bottom;``` // 從哪邊開始transform  
 19. z-index must combine with position  
 20. img should always be block or inline block if we don't want white space  
