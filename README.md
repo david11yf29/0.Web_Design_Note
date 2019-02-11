@@ -1,7 +1,3 @@
-~~this~~
-
-
-
 Take away message from CSS flexbox Trillo project
 ---
 HTML part  
@@ -66,11 +62,14 @@ sticky
 [Article from Medium](https://medium.freecodecamp.org/how-to-use-the-position-property-in-css-to-align-elements-d8f49c403a26)
 
 ### 2. Counterpart of the float
-`.clearfix:after {  
-content: "";  
-display: table;  
-clear: both;  
-}`  
+
+```
+.clearfix:after {  
+  content: "";  
+  display: table;  
+  clear: both;  
+}
+```
 [CSS-clear](https://css-tricks.com/almanac/properties/c/clear/)
 
 ### 3. text-rendering
@@ -89,10 +88,12 @@ Beautifully crafted open source icons
 ### 6. CSS Pseudo-elements
 While `<h>` elements are always block elements by default, the content you add to the `:after` pseudo-class of your `<h2>` element is by default an inline element.  So, to give the inserted element a height, padding, margins and so  forth, you’ll usually have to define it explicitly as a block-level element.  
 Ex:  
+```
 h1:after {
   display: block;
   content: " ";  
 }
+```
 [w3s](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
 ### 7. figure and figcaption
@@ -122,13 +123,15 @@ Inline-block vs block(Use situation)
 
 ### 13. Clearfix(Dealing wtih float shifting)
 In order to keep our code clean and organized, we define one class, clearfix, on the  ::after pseudo-class of which we apply clear: both. Now, because an  ::after pseudo-class needs a defined content - even if empty - to register in the document, we put content: ' ' in it as well. And, in order to make sure it spans the whole area of its children, we set it  to display: block (or table in some cases). Visibility: hidden also helps as a fallback with older versions of IE, where the hack wasn't implemented yet. So then, you can just use the bare code you've found :  
+```
 .clearfix::after {  
-&nbsp;&nbsp;&nbsp;&nbsp;content: '.';  
-&nbsp;&nbsp;&nbsp;&nbsp;clear: both;  
-&nbsp;&nbsp;&nbsp;&nbsp;display: block;  
-&nbsp;&nbsp;&nbsp;&nbsp;height: 0;  
-&nbsp;&nbsp;&nbsp;&nbsp;visibility: hidden;  
-}  
+  content: '.';  
+  clear: both;  
+  display: block;  
+  height: 0;  
+  visibility: hidden;  
+}
+```
 And just add the clearfix class to the element that needs to be cleared (the parent of the floated elements) in the HTML.  
 [Understanding the Humble Clearfix](https://www.fuseinteractive.ca/blog/understanding-humble-clearfix)
 
@@ -193,14 +196,12 @@ Part2: RWD
 
 ### 1. Media Query 
 0px => 480px => 768px => 1024px => 1200px  
-@media only screen and (max-width: 1200px) {  
-}   
-@media only screen and (max-width: 1023px) {  
-}  
-@media only screen and (max-width: 767px) {  
-}  
-@media only screen and (max-width: 480px) {  
-}  
+```
+@media only screen and (max-width: 1200px) {  }   
+@media only screen and (max-width: 1023px) {  }  
+@media only screen and (max-width: 767px) {  }  
+@media only screen and (max-width: 480px) {  }  
+```
 
 ### 2. Responsive Web Design - The Viewport
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">`  
