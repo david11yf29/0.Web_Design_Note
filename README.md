@@ -10,7 +10,7 @@ HTML part
 7. figure are perfect in review and also for picture and description, figure = blockquote + figcaption  
 
 CSS part  
-1. max-width: 120rem; `最多就1200px，小於就等於目前視窗(viewport)`  
+1. ```max-width: 120rem;``` 最多就1200px，小於就等於目前視窗(viewport)  
 2. min-height: 50rem; `min- 跟之前用法一樣`
 3. flex-wrap: wrap; `沒有space就直接往下移動到下一排`  
 4. flex: 0 0 18%; `no grow no shrink basis 18%`   
