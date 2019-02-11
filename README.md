@@ -67,6 +67,16 @@ html {
 27. ```overflow: hidden;``` 超出去的部分直接遮住
 
 
+Take away message from CSS Grid Nexter project
+---
+HTML part
+1. ```.feature{feature $}*6``` 可以有本文1-6的div
+
+CSS part
+1. 一開始就把layout畫好，包含RWD，多使用minmax和1fr
+2. grid-template-columns: auto-fit非常重要，可以有RWD效果
+
+
 
 Part1: Web Design Basics(HTML+CSS)
 ---
