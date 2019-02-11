@@ -36,25 +36,35 @@ html {
 
 ```  
 8. ```order: 1;``` 將item排列移動到最後面
-9. border: none; `form 邊筐`  
-10. `&__input:focus + &__button` //Only both are siblings can use this method(+)  
-11. fill: #fff; `SVG icon's color`  
-12. fill: currentColor; `currentColor will be current or parent(__link) color`  
-13. align-self: stretch; `假設在parent可以讓底下element延伸到底, 也可以讓background-color可以延伸到上下 flexbox-item`  
+9. ```border: none;``` form 邊筐  
+10. ```&__input:focus + &__button``` //Only both are siblings can use this method(+)  
+11. ```fill: #fff;``` SVG icon's color  
+12. ```fill: currentColor;``` currentColor will be current or parent(__link) color  
+13. ```align-self: stretch;``` 假設在parent可以讓底下element延伸到底, 也可以讓background-color可以延伸到上下 flexbox-item
 14. [CSS Combinators(>, +, and ~)](https://www.w3schools.com/css/css_combinators.asp) `& > *`  
-15. display: flex; `text also works with the flexbox`  
+15. ```display: flex;``` text also works with the flexbox  
 16. google cubic-bezier for 延伸效果 `transition`  
-17. `&__item::before {content: ""; position: absolute; top: 0; left: 0; height: 100%; width: 3px;}` //前面在加東西用法  
-18. transform-origin: bottom; // 從哪邊開始transform  
+17. 前面在加東西用法  
+```
+&__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+}
+``` 前面在加東西用法  
+18. ```transform-origin: bottom;``` // 從哪邊開始transform  
 19. z-index must combine with position  
 20. img should always be block or inline block if we don't want white space  
-21. margin-right: auto;  `Very nice trick in flexbox, push all thing to the right, 抓最大值的margin-right`  
-22. flex-direction: column; `讓左右變上下排列`  
+21. ```margin-right: auto;```  Very nice trick in flexbox, push all thing to the right, 抓最大值的margin-right  
+22. ```flex-direction: column;``` 讓左右變上下排列  
 23. 要會設定並使用 keyframes animation  
-24. display: flex; flex-wrap: wrap; + flex: 0 0 50%; `可以實現兩樣並排`  
+24. ```display: flex; flex-wrap: wrap; + flex: 0 0 50%;``` 可以實現兩樣並排 
 25. css masks `mask-image: + mask-size: ` 有時間可以學, 只有mask形狀可以透過去看到後面顏色，其他遮住  
 26. content: "\201C"; `符號有代號跟一般content: "";不太一樣, google Glyphs`  
-27. overflow: hidden; `超出去的部分直接遮住`  
+27. ```overflow: hidden;``` 超出去的部分直接遮住
 
 
 
