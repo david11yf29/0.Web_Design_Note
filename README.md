@@ -337,7 +337,7 @@ Part5: Bootstrap
 ## 3.粗體/斜體/程式碼
 _italics_,  **bold**, and `code()`  
 ## 4.圖片
-![LA Rams](https://www.google.com.tw/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiTmq2ggrbgAhVGXrwKHdSUCG0QjRx6BAgBEAU&url=https%3A%2F%2Fwww.amazon.com%2FAngeles-Rams-12-Inch-Vinyl-Magnet%2Fdp%2FB0000ZJQMS&psig=AOvVaw0j6zraCbQq5M0jTppFJxf-&ust=1550054787307270)  
+![LA Rams](https://images-na.ssl-images-amazon.com/images/I/71wc05aVeOL._SX425_.jpg)  
 ## 5.引用
 通過一個右尖括號來表示這是一段引用內容
 一般一個加強使用兩個`>`
