@@ -335,6 +335,9 @@ Part5: Bootstrap
 ## 2.連結 ( 符號 [link text] (http://url "optional title")）
 [wiki: 詞彙] 連結到 wikipedia 上對應的詞彙頁面  
 ## 3.粗體/斜體/程式碼
+```
+_italics_,  **bold**, and code()
+```
 _italics_,  **bold**, and ```code()```  
 ## 4.圖片
 ```
@@ -344,12 +347,12 @@ _italics_,  **bold**, and ```code()```
 ## 5.引用
 通過一個右尖括號來表示這是一段引用內容
 一般一個加強使用兩個
->一次加強
->>兩次加強
 ```
 >
 >>
 ```
+>一次加強
+>>兩次加強
 ## 6.換行
 兩下空格之後直接換行 
 ## 7.列表
@@ -358,12 +361,18 @@ _italics_,  **bold**, and ```code()```
 2.
 3.
 ```
+1.
+2.
+3.
 
 ```
 * start a line whith a star
 - Also this
   - Like this(two space)
 ```
+* start a line with a star
+- Also this
+    - Like this(two space)
 ## 8.代碼
 ```頭尾各三個上逗```
 
