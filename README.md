@@ -337,6 +337,9 @@ Part5: Bootstrap
 ## 3.粗體/斜體/程式碼
 _italics_,  **bold**, and `code()`  
 ## 4.圖片
+```
+![LA Rams](https://images-na.ssl-images-amazon.com/images/I/71wc05aVeOL._SX425_.jpg)  
+```
 ![LA Rams](https://images-na.ssl-images-amazon.com/images/I/71wc05aVeOL._SX425_.jpg)  
 ## 5.引用
 通過一個右尖括號來表示這是一段引用內容
@@ -359,9 +362,7 @@ _italics_,  **bold**, and `code()`
 ```
 ## 9.代碼
 ```頭尾各三個上逗```
-or
->```javascript
->```
+
 ```javascript
 if (true) {
     else
@@ -372,7 +373,7 @@ if (true) {
 -[x] 
 -[ ]
 ```
--[x] 
+-[x]  
 -[ ]
 ## 11.表格
 ```
