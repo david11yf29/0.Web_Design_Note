@@ -358,13 +358,43 @@ _italics_,  **bold**, and `code()`
   - Like this(two space)
 ```
 ## 9.代碼
-```三個上逗```
+```頭尾各三個上逗```
 or
+>```javascript
+>```
 ```javascript
 if (true) {
     else
 }
 ```
+## 10.完成列表
+```
+-[x] 
+-[ ]
+```
+-[x] 
+-[ ]
+## 11.表格
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+## 12. 刪除線
+```
+~~this~~
+```
+~~this~~
+## 13. 分割線
+```
+***
+```
+***
 
 
 ---
