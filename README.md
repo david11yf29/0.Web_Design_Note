@@ -331,7 +331,7 @@ Part5: Bootstrap
 
 # 常用 Markdown 語法範例  
 ## 1.標題 （符號：#）
- #的個數代表 H1-H6 html 標籤， 如 # => h1 , ## => h2 , (...) , ###### => h6  
+#的個數代表 H1-H6 html 標籤， 如 # => h1 , ## => h2 , (...) , ###### => h6  
 ## 2.連結 ( 符號 [link text] (http://url "optional title")）
 [wiki: 詞彙] 連結到 wikipedia 上對應的詞彙頁面  
 ## 3.粗體/斜體/程式碼
@@ -345,6 +345,27 @@ _italics_,  **bold**, and `code()`
 兩下空格之後直接換行
 ## 7.分割線  
 在單獨一行里輸入3個或以上的短橫線、星號或者下劃線  
+## 8.列表
+```
+1.
+2.
+3.
+```
+
+```
+* start a line whith a star
+- Also this
+  - Like this(two space)
+```
+## 9.代碼
+```三個上逗```
+or
+```javascript
+if (true) {
+    else
+}
+```
+
 
 ---
 
