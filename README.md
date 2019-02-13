@@ -81,7 +81,10 @@ CSS part
 5. calc(100vh - 6rem)規劃section很好用，注意相減部分一定要有用格
 6. Media queries第一步就是先縮字型例如10px->8px
 7. repeat(auto-fit, minmax(25rem, 1fr)) 這招直接可以直接做RWD減少後面media queries
-8. justify-items 等於中間砍一刀下去左右編排 align-items 橫向一刀上下編排
+8. justify-items 等於中間砍一刀下去左右編排 align-items 橫向一刀上下
+9. -1 only works if we already define row
+10. margin左右設定auto等於置中的概念
+11. object-fit 必須要先設定width還有height，而且是用在img，加上可以使用display: block避免白色空隙
 
 
 
