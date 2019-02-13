@@ -71,10 +71,18 @@ Take away message from CSS Grid Nexter project
 ---
 HTML part
 1. ```.feature{feature $}*6``` 可以有本文1-6的div
+2. 
 
 CSS part
 1. 一開始就把layout畫好，包含RWD，多使用minmax和1fr
 2. grid-template-columns: auto-fit非常重要，可以有RWD效果
+3. grid-template-rows 要思考如何使用，包含vh min-content vw minmax要如何配置每個介面
+4. grid-template-columns 如果之後RWD需要增加row，最好用命名方式去做grid而不是 1 / -1 or span 2
+5. calc(100vh - 6rem)規劃section很好用，注意相減部分一定要有用格
+6. Media queries第一步就是先縮字型例如10px->8px
+7. repeat(auto-fit, minmax(25rem, 1fr)) 這招直接可以直接做RWD減少後面media queries
+8. justify-items 等於中間砍一刀下去左右編排 align-items 橫向一刀上下編排
+
 
 
 
