@@ -84,7 +84,35 @@ CSS part
 8. justify-items 等於中間砍一刀下去左右編排 align-items 橫向一刀上下
 9. -1 only works if we already define row
 10. margin左右設定auto等於置中的概念
-11. object-fit 必須要先設定width還有height，而且是用在img，加上可以使用display: block避免白色空隙
+11. object-fit 必須要先設定width還有height，而且是用在img，加上可以使用display: block避免白色縫隙
+12. background-image有個用法主要是後面的linear-gradient可以把畫面變暗，並且還能放圖
+13. 寫法後面的CSS會蓋住前面 padding: 4px; padding-bottom: 5px;
+14. Tricky招式，把下面的psuedo element當作grid使用
+```
+&__something {
+    color: white;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.5rem;
+  
+    &::before,
+    &::after {
+       content: "";
+        height: 1px;
+        display: block;
+        background-color: currentColor; // 這邊會去同步前面的color顏色
+    }
+}
+```
+15. filter可以讓img變暗，調整亮度
+16. max-height and max-width很好用
+17. grid可以重疊在用z-index分上下
+18. svg顏色用fill
+19. transform: translateY(-50%) 可以把50%內容往上位置
+20. width > 100%有時候很好用
+21. 可以做一個margin class直接套用在需要的class後面而不用去修改原本的class，.mb-sm { margin-bottom: 2rem; }
+22. 在_base.scss做RWD記得是用16px當作default去計算，75em(75x16=1200px)
 
 
 
