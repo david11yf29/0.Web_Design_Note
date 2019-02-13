@@ -71,7 +71,15 @@ Take away message from CSS Grid Nexter project
 ---
 HTML part
 1. ```.feature{feature $}*6``` 可以有本文1-6的div
-2. 
+2. 有時候一個section也可以拆成兩個並行的div
+3. ```<sup></sup>```簡單來說就是上標
+4. svg用在html用法
+```
+<svg class="feature__icon">
+   <use xlink:href="img/sprite.svg#icon-@#$%^"></use>
+</svg>
+```
+5. 圖片記得用<figure></figure>
 
 CSS part
 1. 一開始就把layout畫好，包含RWD，多使用minmax和1fr
