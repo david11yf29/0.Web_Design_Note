@@ -1,3 +1,14 @@
+Take away message from my personal website
+---
+HTML part  
+
+CSS part 
+1. 解釋了為什麼圖片到mobile會放大失真. This happens when you have `background-attachment:fixed`. On mobile, I usually put `background-attachment:scroll` inside of a `@media` query. Fixed attached images use the **whole** `<body>` size. On mobile this can get really tall which blows your image out. Setting the attachment back to scroll allows your cover image to stretch **within its own container**.
+
+
+
+
+
 Take away message from CSS flexbox Trillo project
 ---
 HTML part  
