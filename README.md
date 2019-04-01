@@ -2,6 +2,7 @@ Take away message from React
 ---
 1. props.children => 回傳Array形式 [{}, "Are u sure?"]
 2. ```const icon = season === 'winter' ? 'snowflake' : 'sun'``` ```<i className={`${icon} icon'} />```
+3. defaultProps ```Spinner.defaultProps = { message: "Loading..." };```
 
 
 Take away message from my personal website
